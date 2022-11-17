@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Bac\\Project\\Ky7IT\\KTHDV\\BookingApp\\BookingApp.API\\BookingApp.API.csproj": {}
+    "D:\\api_pbl6_1\\pbl6\\BookingApp.API\\BookingApp.API.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Bac\\Project\\Ky7IT\\KTHDV\\BookingApp\\BookingApp.API\\BookingApp.API.csproj": {
+    "D:\\api_pbl6_1\\pbl6\\BookingApp.API\\BookingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Bac\\Project\\Ky7IT\\KTHDV\\BookingApp\\BookingApp.API\\BookingApp.API.csproj",
+        "projectUniqueName": "D:\\api_pbl6_1\\pbl6\\BookingApp.API\\BookingApp.API.csproj",
         "projectName": "BookingApp.API",
-        "projectPath": "D:\\Project\\Bac\\Project\\Ky7IT\\KTHDV\\BookingApp\\BookingApp.API\\BookingApp.API.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Bac\\Project\\Ky7IT\\KTHDV\\BookingApp\\BookingApp.API\\obj\\",
+        "projectPath": "D:\\api_pbl6_1\\pbl6\\BookingApp.API\\BookingApp.API.csproj",
+        "packagesPath": "C:\\Users\\DUC\\.nuget\\packages\\",
+        "outputPath": "D:\\api_pbl6_1\\pbl6\\BookingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DUC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -71,8 +71,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -84,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
