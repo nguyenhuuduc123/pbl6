@@ -5,6 +5,7 @@ using BookingApp.BookingApp.API.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Service.api;
 
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
@@ -15,7 +16,7 @@ services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 services.AddEndpointsApiExplorer();
 services.AddSwaggerGen();
-
+services.AddScoped<IBookingRepository,BookingRepository>();
 services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
